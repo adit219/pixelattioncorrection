@@ -72,7 +72,7 @@ def estimate_noise_variance(image):
     noise_var = np.var(noise)
     return noise_var
 
-# Example usage
+
 input_image_path = 'data/pixelated/11.jpg'
 output_image_path = 'data/corrected/8_corrected.jpg'
 os.makedirs(os.path.dirname(output_image_path), exist_ok=True)
