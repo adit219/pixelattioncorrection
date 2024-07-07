@@ -29,7 +29,7 @@ def calculate_metrics(original_image_path, restored_image_path):
     return psnr_value, ssim_value
 
 if __name__ == "__main__":
-    # Example usage
+
     original_image_path = 'data/pixelated/11.jpg'
     restored_image_path = 'data/corrected/8_corrected.jpg'
 
